@@ -1,0 +1,219 @@
+@media (max-width: 993px) {
+    .promo {
+        padding: 21px 10px 60px 10px;
+        &__header {
+            font-size: 40px;
+        }
+        &__subheader {
+            font-size: 23px;
+        }
+        &__icons {
+            margin-top: 50px;
+            width: 400px;
+        }
+    }
+    .advanteges {
+        padding: 50px 0 50px 0;
+        &__icons {
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            margin-top: 20px;
+        }
+        &__descr {
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+    }
+    .consultation {
+        padding: 50px 0 50px 10%;
+    }
+    .button
+        &_main {
+            margin-top: 50px;
+        }
+    .title {
+        font-size: 28px;
+        &_comment {
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
+    }
+    .carousel {
+        padding: 50px 0;
+        &__inner {
+            width: 500px;
+            img{
+                width: 500px;
+            }
+        }
+    }
+    .catalog {
+        padding-bottom: 50px;
+        &__tabs {
+            margin-top: 40px;
+        }
+        &__content {
+            margin-top: 50px;
+            padding: 0 10%;
+        }
+    }
+    .comment {
+        &__item {
+            flex-direction: column;
+            margin-bottom: 70px;
+            &_img {
+                margin: 0 auto;
+                padding-bottom: 10px;
+            }
+            &_name {
+                text-align: center;
+            }
+            &_text {
+                margin-left: 0px;
+            }
+            &_achiev {
+                text-align: center;
+            }
+            &_recall {
+                margin: 5px 5%;
+            }
+        }
+    }
+    // .modal__close {
+    //     right: 10px;
+    //     top: 10px;
+    // }
+}
+@media (max-width: 769px) {
+    .promo {
+        padding: 10px 10px 60px 10px;
+    }
+    .header {
+        &__logo {
+            width: 33%;
+            img {
+                width: 100%;
+            }
+        }
+        &__official {
+            width: 33%;
+            font-size: 10px;
+            span {
+                font-size: 14px;
+                line-height: 14px;
+            }
+        }
+        &__contacts {
+            width: 33%;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+    .carousel {
+        padding: 50px 0;
+        &__inner {
+            width: 300px;
+            img{
+                width: 300px;
+            }
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 150px;
+            font-size: 14px;    
+        }
+        &__content {
+            padding: 0;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .header {
+        &__logo {
+            animation: logorollIn 0.7s both linear;
+            img {
+                width: 90%;
+            }
+        }
+        &__official {
+            font-size: 7px;
+            span {
+                font-size: 11px;
+            }
+        }
+        &__phone {
+            font-size: 10px;
+        }
+    }
+    .promo {
+        min-height: 500px;
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__header {
+            font-size: 25px;
+            line-height: 25px;
+        }
+        &__subheader {
+            font-size: 20px;
+            margin-bottom: 0;
+            line-height: 20px;
+            text-align: right;
+        }
+        &__icons {
+            width: 100%;
+        }
+    }
+    .button {
+        width: 90%;
+        font-size: 9px;
+        line-height: 9px;
+        &_main {
+            font-size: 16px;
+            width: 100%;
+        }
+        &_submit {
+            font-size: 16px;
+            width: 100%;
+        }
+    }
+    .title {
+        font-size: 20px;
+        &_left {
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+    .consultation {
+        min-height: 600px;
+        padding: 50px 10px;
+        &__descr {
+            margin-top: 50px;
+        }
+    }
+    .feed-form {
+        width: 100%;
+    }
+    .catalog {
+        &__tab {
+            width: 80px;
+            font-size: 9px;
+        }
+    }
+    .footer {
+        width: 100%;
+        &__info {
+            width: 100%;
+            padding: 20px;
+            height: 230px;
+        }
+    }
+}
